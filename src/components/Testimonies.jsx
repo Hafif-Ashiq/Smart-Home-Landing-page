@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonies = ({para,img,name,job}) => {
   return (
-    <div className="p-[50px] bg-[#E7EBEE] dark:bg-secondary_dark max-w-[600px] rounded-[10px] flex flex-col items-start justify-between gap-[30px] font-poppins shadow-gray-300 dark:shadow-gray-800 shadow-lg sm:hover:bg-white sm:dark:hover:bg-[#E7EBEE] cursor-pointer h-[300px]  text-[#5F7285]  dark:text-faded_text dark:sm:hover:text-[#5F7285]">
+    <div className="p-[50px] bg-[#E7EBEE] dark:bg-black_text max-w-[600px] rounded-[10px] flex flex-col items-start justify-between gap-[30px] font-poppins shadow-gray-300 dark:shadow-gray-800 shadow-lg sm:hover:bg-white sm:dark:hover:bg-secondary_dark cursor-pointer h-[300px]  text-[#5F7285]  dark:text-faded_text ">
       <p className="text-[16px] overflow-hidden text-ellipsis">{para}</p>
 
       <div className="flex gap-[14px]">

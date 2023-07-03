@@ -7,6 +7,7 @@ import linkedInLogo from "../assets/linkedInLogo.svg";
 import HeroImage from "../assets/HeroImage.png";
 import bgDownArrow from "../assets/bgDownArrow.svg";
 import downArrow from "../assets/downArrow.svg";
+import circleTop from "../assets/circleTop.svg";
 import apple from "../assets/apple.svg";
 import appleLight from "../assets/appleLight.svg";
 import google from "../assets/google.svg";
@@ -277,5 +278,6 @@ export {
   left,
   right,
   lightMode,
-  darkMode
+  darkMode,
+  circleTop
 };

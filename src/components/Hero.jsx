@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroImage, heroPara, socialLinks } from "../constants";
+import { HeroImage, circleTop, heroPara, socialLinks } from "../constants";
 import LineVector from "./lineVector";
 
 const Hero = () => {
@@ -37,7 +37,9 @@ const Hero = () => {
         </ul>
         
       </div>
-
+      <div className={`absolute md:flex hidden top-0 right-0 z-0 `}>
+            <img src={circleTop} alt="" className="" />
+        </div>
       <LineVector />
     </section>
   );

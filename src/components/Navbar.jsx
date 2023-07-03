@@ -40,7 +40,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`${navTop? 'sm:bg-transparent': 'sm:bg-primary dark:sm:bg-secondary'} bg-primary dark:bg-secondary text-faded_text font-poppins sm:py-[16px] py-[4px] flex sm:px-12 md:px-16 lg:px-20  px-4 justify-between items-center sm:text-[18px] text-[16px] fixed top-0 z-20 w-full`}>
+    <nav className={`${navTop? 'sm:bg-transparent dark:sm:bg-transparent': 'sm:bg-primary dark:sm:bg-secondary'} bg-primary dark:bg-secondary text-faded_text font-poppins sm:py-[16px] py-[4px] flex sm:px-12 md:px-16 lg:px-20  px-4 justify-between items-center sm:text-[18px] text-[16px] fixed top-0 z-20 w-full`}>
 
     {/* <nav
       className={`${
