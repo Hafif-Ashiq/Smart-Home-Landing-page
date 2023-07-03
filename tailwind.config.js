@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
+  darkMode:"class",
   mode: "jit",
   theme: {
     extend: {
       colors: {
         primary: "#1E5AFA",
+        back_dark: "#1F1F1F",
+        secondary_dark: "#767676",
         secondary: "#000F37",
         black_text: "#313131",
         faded_text: "#FAFAFA",

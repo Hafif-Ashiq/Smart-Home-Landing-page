@@ -5,13 +5,13 @@ const AboutSection = ({img,title,para,css}) => {
     <div className={`flex sm:flex-row ${css} items-center justify-center w-full flex-col  gap-[40px]`}>
         <div className='relative flex-1 flex items-center justify-center'>
             <img src={img} alt="" className='relative z-10 sm:left-[50%] sm:translate-x-[-42%]'/>
-            <div className='absolute w-[90%] bg-primary bottom-[25%] z-0 h-[40%] rounded-[10px]' />
+            <div className='absolute w-[90%] bg-primary dark:bg-secondary bottom-[25%] z-0 h-[40%] rounded-[10px]' />
         </div>
         <div className={`flex-1 flex flex-col sm:items-start items-center justify-center relative z-10 gap-[35px]  `}>
-            <h2 className='md:text-[48px] text-[36px] text-secondary font-bold sm:text-left text-center'>{title}</h2>
+            <h2 className='md:text-[48px] text-[36px] text-secondary dark:text-primary font-bold sm:text-left text-center'>{title}</h2>
             <p className='md:text-[24px] text-[18px
-            ] text-black_text sm:text-left text-center'>{para}</p>
-            <button className='bg-transparent px-[43px] py-[18px] border-secondary border-[1px] font-semibold text-[18px] rounded hover:bg-secondary hover:text-white '>Learn More</button>
+            ] text-black_text dark:text-faded_text sm:text-left text-center'>{para}</p>
+            <button className='bg-transparent px-[43px] py-[18px] border-secondary dark:border-primary border-[1px] font-semibold text-[18px] rounded hover:bg-secondary dark:hover:bg-primary hover:text-white dark:text-faded_text'>Learn More</button>
         </div>
     </div>
   )

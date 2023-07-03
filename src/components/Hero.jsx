@@ -4,7 +4,7 @@ import LineVector from "./lineVector";
 
 const Hero = () => {
   return (
-    <section className="bg-primary text-faded_text font-poppins relative pt-[90px] pb-6 sm:px-12 md:px-16 lg:px-20 px-4">
+    <section className="bg-primary dark:bg-secondary text-faded_text font-poppins relative pt-[90px] pb-6 sm:px-12 md:px-16 lg:px-20 px-4">
       <div className="flex flex-col relative z-10 justify-center items-center">
         <h2 className="sm:text-[72px] text-[48px] font-extrabold ">Smart Home</h2>
         <h2 className="sm:text-[72px] text-[48px] font-extrabold ">Application</h2>

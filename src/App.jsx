@@ -10,7 +10,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter  >
+    <div className='bg-white dark:bg-back_dark'>
+      <BrowserRouter  >
       <Navbar />
       <Hero />
       <Download to={'/about'} />
@@ -21,7 +22,8 @@ function App() {
       <AppDownload />
       <Subscribe />
       <Footer />
-    </BrowserRouter>    
+    </BrowserRouter> 
+    </div>   
   )
 }
 

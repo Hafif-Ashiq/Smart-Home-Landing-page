@@ -36,6 +36,9 @@ import minus from "../assets/minus.svg";
 import left from "../assets/left.svg";
 import right from "../assets/right.svg";
 
+import lightMode from "../assets/lightMode.svg"
+import darkMode from "../assets/darkMode.svg"
+
 const navLinks = [
   {
     id: "Home",
@@ -272,5 +275,7 @@ export {
   Follow,
   About,
   left,
-  right
+  right,
+  lightMode,
+  darkMode
 };

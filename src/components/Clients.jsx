@@ -17,13 +17,13 @@ const Clients = () => {
         }
       />
 
-      <div className="flex  flex-wrap justify-center gap-[30px] items-center py-[20px] md:my-[80px] my-[20px] bg-[#FAFAFA] rounded-[20px]">
+      <div className="flex  flex-wrap justify-center gap-[30px] items-center py-[20px] md:my-[80px] my-[20px] bg-[#FAFAFA] dark:bg-secondary_dark rounded-[20px]">
         {logos.map((logo) => (
           <div
             key={logo}
-            className="md:w-[260px] w-[120px] md:h-[110px] h-[90px] bg-white flex justify-center items-center  shadow-gray-200 shadow-md rounded-[14px]"
+            className="md:w-[260px] w-[120px] md:h-[110px] px-[20px] h-[90px] bg-white flex justify-center items-center  shadow-gray-200 shadow-md dark:shadow-gray-800 rounded-[14px]"
           >
-            <img src={logo} alt="" className="sm:w-full w-[90px]" />
+            <img src={logo} alt="" className="sm:w-full w-[90px] h-[80%]" />
           </div>
         ))}
       </div>
