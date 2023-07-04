@@ -9,7 +9,7 @@ import CarouselTestimony from './CarouselTestimony'
 const Testimonials = () => {
     // const testimony = testimoniesArray[0]
     return (
-    <section className='py-6 pb-[100px] sm:px-12 md:px-16 lg:px-20 px-4'>
+    <section className='py-[80px] pb-[100px] sm:px-12 md:px-16 lg:px-20 px-4' id='testimonials'>
         <Heading 
         title={"Testimonials"}
         para={

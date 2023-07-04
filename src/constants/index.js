@@ -43,7 +43,7 @@ import darkMode from "../assets/darkMode.svg"
 const navLinks = [
   {
     id: "Home",
-    title: "/",
+    title: "",
   },
   {
     id: "About",
@@ -54,8 +54,8 @@ const navLinks = [
     title: "testimonials",
   },
   {
-    id: "Contact",
-    title: "contact",
+    id: "FAQs",
+    title: "FAQs",
   },
 ];
 
@@ -65,22 +65,22 @@ const heroPara =
 const socialLinks = [
   {
     id: "facebook",
-    link: "www.facebook.com",
+    link: "https://www.facebook.com",
     logo: facebookLogo,
   },
   {
     id: "instagram",
-    link: "www.instagram.com",
+    link: "https://www.instagram.com",
     logo: instagramLogo,
   },
   {
     id: "twitter",
-    link: "www.twitter.com",
+    link: "https://www.twitter.com",
     logo: twitterLogo,
   },
   {
     id: "linkedin",
-    link: "www.linkedin.com",
+    link: "https://www.linkedin.com",
     logo: linkedInLogo,
   },
 ];

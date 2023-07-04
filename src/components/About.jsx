@@ -14,7 +14,7 @@ const About = () => {
     
 
   return (
-    <section className='py-6 sm:px-12 md:px-16 lg:px-20 px-4'>
+    <section className='py-[80px] sm:px-12 md:px-16 lg:px-20 px-4' id='about'>
         <Heading 
         title={"About Us"} 
         

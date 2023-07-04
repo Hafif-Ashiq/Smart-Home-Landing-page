@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter  >
       <Navbar />
       <Hero />
-      <Download to={'/about'} />
+      <Download  />
       <About />
       <Clients />
       <Testimonials />

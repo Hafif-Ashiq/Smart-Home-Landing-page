@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { navLinks, menu, cross, lightMode, darkMode } from "../constants";
-import { NavLink } from "react-router-dom";
+
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -40,7 +40,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`${navTop? 'sm:bg-transparent dark:sm:bg-transparent': 'sm:bg-primary dark:sm:bg-secondary'} bg-primary dark:bg-secondary text-faded_text font-poppins sm:py-[16px] py-[4px] flex sm:px-12 md:px-16 lg:px-20  px-4 justify-between items-center sm:text-[18px] text-[16px] fixed top-0 z-20 w-full`}>
+    <nav className={`${navTop? 'sm:bg-transparent dark:sm:bg-transparent': 'sm:bg-primary dark:sm:bg-secondary'} bg-primary dark:bg-secondary text-faded_text font-poppins sm:py-[16px] py-[4px] flex md:px-12 lg:px-20  px-4 justify-between items-center sm:text-[18px] text-[16px] fixed top-0 z-20 w-full`}>
 
     {/* <nav
       className={`${
@@ -50,8 +50,8 @@ const Navbar = () => {
     > */}
       <ul className="md:flex hidden justify-start lg:gap-[30px] gap-[20px] w-[35%]">
         {navLinks.map((link) => (
-          <li key={link.id}>
-            <NavLink to={`${link.title}`}>{link.id}</NavLink>
+          <li key={link.id}>  
+            <a href={`#${link.title}`}>{link.id}</a>
           </li>
         ))}
       </ul>
@@ -76,9 +76,9 @@ const Navbar = () => {
           >
             {navLinks.map((link) => (
               <li key={link.id}>
-                <NavLink to={link.title} onClick={() => setToggle(!toggle)}>
+                <a href={`#${link.title}`} onClick={() => setToggle(!toggle)}>
                   {link.id}
-                </NavLink>
+                </a>
               </li>
             ))}
           </ul>
